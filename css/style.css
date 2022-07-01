@@ -1,0 +1,153 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+/* background */
+.background{
+    background: rgb(167, 214, 255);
+}
+
+body {
+    background:rgb(19, 62, 146);
+    font-family: 'Gill Sans', sans-serif;
+    margin: 30px 60px;
+}
+
+/* header */
+
+header {
+    background-color: rgb(19, 62, 146);
+    text-align: center;
+    align-items: center;
+    overflow: auto;
+    list-style: none;
+    border-radius: 30px 30px;
+    border-color: rgb(6, 0, 33);
+    border-width: 2p;
+    border-style: outset;
+    
+}
+.header ul {
+    text-align: center;
+    align-items: center;
+    overflow: auto;
+    padding: 0;
+    list-style: none;
+}
+.topbar-logo {
+    list-style: none;
+}
+
+
+
+/* Title Portuasviagens */
+
+.title {
+    color: white;
+    font-size: 120px;
+    font-family: 'Gill Sans', sans-serif;
+    margin: 5px;
+
+}
+
+/* Navigation bar */
+.btn-menu {
+    text-align: center;
+    align-items: center;
+}
+.btn-menu ul {
+    color: #005bea;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    font-weight: 600;
+}
+
+.btn-menu li a {
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0px 80px;
+    
+}
+
+/* Biograph */
+.bioph {
+    color: aliceblue;
+}
+
+.biograph { 
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 200px;
+    color: azure;
+}
+
+/* card body */
+
+article{
+    text-align: center;
+    overflow: auto;
+}
+
+ 
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color:aliceblue;
+}
+
+/* Footer */
+
+#footer{
+
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    resize: auto;
+    
+
+}
+
+h3 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside {
+    background-color: #005bea;
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right; 
+    border-width: 5px;
+    border-color: #000000;
+    border-style: outset;
+}
+
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bio {
+    align-items: justify;
+    margin: 50 50;
+    color: white;
+    font-size: 30px;
+    color-scheme: white;
+}
+
+.card-body {
+    align-items: center;
+   
+}
+
+.img-home {
+    text-align: center;
+    padding: 0px 15px;
+}
