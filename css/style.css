@@ -1,153 +1,297 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 
-/* background */
-.background{
-    background: rgb(167, 214, 255);
+
+* {
+  box-sizing: border-box;
 }
+
 
 body {
-    background:rgb(19, 62, 146);
-    font-family: 'Gill Sans', sans-serif;
-    margin: 30px 60px;
+  margin: 0;
+  background-repeat: no-repeat;
 }
 
-/* header */
-
-header {
-    background-color: rgb(19, 62, 146);
-    text-align: center;
-    align-items: center;
-    overflow: auto;
-    list-style: none;
-    border-radius: 30px 30px;
-    border-color: rgb(6, 0, 33);
-    border-width: 2p;
-    border-style: outset;
-    
+.header h1 {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 6px;
+  font-size: 70px;
+  /* text-shadow: 0.1px 0.07em  0.05em rgb(100, 12, 12);Flexbox for containers*/
+  margin: 30px;
+  font-weight: 900;
 }
+
 .header ul {
-    text-align: center;
-    align-items: center;
-    overflow: auto;
-    padding: 0;
-    list-style: none;
-}
-.topbar-logo {
-    list-style: none;
+
+  text-align: center;
+  align-items: center;
+  overflow: auto;
+  padding: 0;
+  list-style: none;
 }
 
-
-
-/* Title Portuasviagens */
-
-.title {
-    color: white;
-    font-size: 120px;
-    font-family: 'Gill Sans', sans-serif;
-    margin: 5px;
-
-}
-
-/* Navigation bar */
-.btn-menu {
-    text-align: center;
-    align-items: center;
-}
 .btn-menu ul {
-    color: #005bea;
-    align-items: center;
-    text-align: center;
-    font-size: 40px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-    font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  color: #005bea;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  font-weight: 200;
 }
 
 .btn-menu li a {
-    text-align: center;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    padding: 0px 80px;
-    
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: inline-block;
+
 }
 
-/* Biograph */
-.bioph {
-    color: aliceblue;
+.header {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(60deg, rgb(50, 28, 139) 0%, rgb(0, 125, 193) 100%);
+  color: white;
+
 }
 
-.biograph { 
-    text-align: center;
-    background-color: aliceblue;
-    font-size: 200px;
-    color: azure;
+.logo {
+  max-height: 50px;
+  max-width: 50px;
+  height: auto;
+  width: auto;
+  padding-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: fill;
 }
+
+.inner-header {
+  height: 25vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.flex {
+  /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+  background-color: 50%;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
+}
+
 
 /* card body */
 
-article{
-    text-align: center;
-    overflow: auto;
+article {
+  text-align: center;
+  overflow: auto;
 }
 
- 
+
 h2 {
-    text-align: center;
-    font-size: 40px;
-    color:aliceblue;
+  text-align: center;
+  font-size: 30px;
+  color: #005bea;
+  font-weight: 800;
+
+}
+
+.card-body {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+}
+
+#img-principal {
+  text-align: center;
+  padding: 0px 15px;
+  width: 10cm;
+  max-width: auto;
+  height: 7cm;
+  max-height: auto;
+
+}
+
+.card-bd {
+  width: 10cm;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: middle;
+  font-family: 'Lato', sans-serif;
+  display: block;
+ 
+}
+
+/* Biograph */
+
+
+.bio {
+  text-align: center;
+  color: midnightblue;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* youtube */
+
+.youtube {
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2px;
+
+}
+#youtube-logo{
+  margin: auto;
+}
+.youtube h1 {
+  font-family: 'League Gothic', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+  
+}
+
+.ytb-header {
+  display: inline-flex;
+  padding: 0 1rem ;  
+  gap: 0.75rem;
+}
+
+#idYouTubeIconHtml {
+  background: red;
+  border-radius: 25%/12%;
+  color: white;
+  height: 45px;
+  font-size: 25px;
+  line-height: 36px;
+  position: relative;
+  text-indent: 10%;
+  width: 58.5px;
+  
+  
+}
+
+#idYouTubeIconHtml:before {
+  background: inherit;
+  border-radius: 5%/30%;
+  content: '\25B6';
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 10%;
+}
+
+.ytb-player {
+  text-align: center;
+}
+
+
+/* Animation */
+
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+  .content {
+    height: 30vh;
+  }
+
 }
 
 /* Footer */
 
-#footer{
+footer {
+  background: linear-gradient(60deg, rgb(50, 28, 139) 0%, rgb(0, 125, 193) 100%);
+  font-family: 'Lato', sans-serif;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  resize: auto;
 
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-    resize: auto;
-    
+}
+
+.footer ul a {
+  font-family: 'Lato', sans-serif;
+  color: aliceblue;
 
 }
 
 h3 {
-    color: white;
-    font-size: 60px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #2973eb;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-aside {
-    background-color: #005bea;
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right; 
-    border-width: 5px;
-    border-color: #000000;
-    border-style: outset;
-}
-
-
-p {
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.bio {
-    align-items: justify;
-    margin: 50 50;
-    color: white;
-    font-size: 30px;
-    color-scheme: white;
-}
-
-.card-body {
-    align-items: center;
-   
-}
-
-.img-home {
-    text-align: center;
-    padding: 0px 15px;
-}
