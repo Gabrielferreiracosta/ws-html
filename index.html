@@ -22,13 +22,18 @@
 
 </head>
 
-<body class="background">
+<body>
+    <div class="banner">
+        <span id="anuncio">
+            Barra de anuncio
+        </span>
+    </div>
     <div class="header">
         <nav class="btn-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Morar em Portugal.html">Dicas de viagens</a></li>
-                <li><a href="https://portuasviagens.wordpress.com/">Países ja visitados</a></li>
+                <li><a href="Morar em Portugal.html">Dicas</a></li>
+                <li><a href="https://portuasviagens.wordpress.com/">Países visitados</a></li>
                 <li><a href="https://portuasviagens.wordpress.com/">Quem somos nós?</a></li>
                 <li><a href="https://portuasviagens.wordpress.com/">Parcerias</a></li>
                 <li><a href="https://portuasviagens.wordpress.com/">Contact</a></li>
@@ -36,8 +41,8 @@
         </nav>
         <br>
         <!--Content before waves-->
-        <div class="inner-header flex">
-            <img src="img/mascote-3.png" alt="">
+        <div class="mascote">
+            <img class="mascote-img" src="img/mascote-3.png" alt="Mascote">
             <h1>PORTUASVIAGENS</h1>
         </div>
         <!--Waves Container-->
@@ -59,19 +64,22 @@
         <!--Waves end-->
 
     </div>
-     <br>  
-    <div class="card-body">
-        <card class="card-bd">
-            <h2>Viver em Portugal e Viajar o Mundo</h2>
-            <p class="bio">
-                We are a <b>digital agency</b> that creates digital media and entertainement to bring
-                <b>results</b> to your company
-            </p>    
-        </card>
-        <div class="img-home">
+    <br>
+    <main>
+        <div class="card-body">
+            <card class="card-bd">
+                <h2>Viver em Portugal e Viajar o Mundo</h2>
+                <p class="bio">
+                    We are a <b>digital agency</b> that creates digital media and entertainement to bring
+                    <b>results</b> to your company
+                </p>
+            </card>
+        </div>
+        <div id="img-home">
             <img id="img-principal" src="https://portuasviagens.files.wordpress.com/2020/10/img_20200812_213652_446.jpg?w=1024">
         </div>
-    </div>
+        </div>
+    </main>
     <br>
     <div class="youtube">
         <card class="ytb-header">
@@ -83,7 +91,7 @@
     </div>
     <br>
     <div class="ytb-player">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/X5PZI71Rl7M" title="YouTube video player"
+        <iframe src="https://www.youtube.com/embed/X5PZI71Rl7M" title="YouTube video player"
             frameborder="2"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
