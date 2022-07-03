@@ -60,7 +60,7 @@ body {
   color: #005bea;
   text-align: center;
   align-items: flex-start;
-  font-size: 100%;
+  font-size: 80%;
   list-style: none;
   padding: 0;
   display: inline-flex;
@@ -68,6 +68,9 @@ body {
   justify-content: center;
   margin: 0;
   width: 99.5%;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10px;
   
 }
 
